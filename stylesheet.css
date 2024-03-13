@@ -32,9 +32,11 @@ p{
 }
 
 #duck{
-  margin: 2em 40%;
+  margin-top: 2em;
   height: 20em;
   width: auto;
   position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
 }
 
