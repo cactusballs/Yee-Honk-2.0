@@ -28,15 +28,15 @@ jQuery(document).ready(function($) {
 
   setTimeout(goRight, 50);
 
-  // Toggle animation pause/resume on click
+
   var $document = $(document);
   $document.click(function() {
     if (isPaused) {
-      isPaused = false; // Resume animation
-      goRight(); // Continue animation
+      isPaused = false; 
+      goRight();
     } else {
-      isPaused = true; // Pause animation
-      $idAnimate.stop(); // Stop the current animation
+      isPaused = true; 
+      $idAnimate.stop(); 
     }
   });
 });
