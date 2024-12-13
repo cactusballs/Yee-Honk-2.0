@@ -1,0 +1,17 @@
+{
+  "name": "yee-honk-2.0",
+  "version": "1.0.0",
+  "description": "Experiment WIP - https://cactusballs.github.io/Yee-Honk-2.0/",
+  "main": "yeehonk2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1"
+  }
+}
