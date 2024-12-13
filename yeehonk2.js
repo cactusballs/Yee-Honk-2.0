@@ -1,6 +1,3 @@
-
-
-
 jQuery(document).ready(function($) {
   var width = $(document).width();
   var $idAnimate = $('#animate');
@@ -27,7 +24,6 @@ jQuery(document).ready(function($) {
   }
 
   setTimeout(goRight, 50);
-
 
   var $document = $(document);
   $document.click(function() {
