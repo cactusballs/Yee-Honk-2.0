@@ -1,6 +1,4 @@
-
 import { createSlice } from '@reduxjs/toolkit';
-
 
 const playerSlice = createSlice({
   name: 'yeeHonk',
@@ -17,3 +15,4 @@ const playerSlice = createSlice({
 export const { togglePause } = playerSlice.actions;
 
 export default playerSlice.reducer;
+

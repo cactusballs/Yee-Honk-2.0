@@ -1,5 +1,4 @@
-import store, { togglePause } from '/redux/store.js';
-import { getState } from './redux/store.js';
+import {store, togglePause } from './redux/store.js';
 
 jQuery(document).ready(function($) {
   var width = $(document).width();
