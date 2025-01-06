@@ -1,16 +1,19 @@
-import { createSlice } from '@reduxjs/toolkit'
 
-const initialState = { value: 0 };
+import { createSlice } from '@reduxjs/toolkit';
 
-const counterSlice = createSlice({
-  name: 'counter',
-  initialState,
+
+const playerSlice = createSlice({
+  name: 'yeeHonk',
+  initialState: {
+    isPaused: false,
+  },
   reducers: {
-    increment(state){
-      state.value++
+    togglePause: (state) => {
+      state.isPaused = !state.isPaused;
     },
-    decrement(state){
-      state.value--
-    }
-  }
-})
+  },
+});
+
+export const { togglePause } = playerSlice.actions;
+
+export default playerSlice.reducer;

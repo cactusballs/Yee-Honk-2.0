@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import yeeHonkReducer from './playerScore';
+import playerReducer from './playerSlice';
 
 const store = configureStore({
-    reducer: {
-        yeeHonk: yeeHonkReducer,
-    },
+  reducer: {
+    yeeHonk: playerReducer,
+  },
 });
 
 export default store;
