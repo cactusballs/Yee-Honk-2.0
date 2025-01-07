@@ -1,0 +1,3 @@
+function collisionDetection(hat, duck){
+    
+};
