@@ -6,7 +6,8 @@ export default defineConfig({
   },
   base: "./Yee-Honk-2.0/",
   build: {
-    outDir: 'dist',
+    outDir: '.', 
+    emptyOutDir: false,
   },
   resolve: {
     alias: {
