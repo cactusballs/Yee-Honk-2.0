@@ -4,7 +4,7 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: "./Yee-Honk-2.0/",
+  base: "./",
   build: {
     outDir: '.', 
     emptyOutDir: false,
